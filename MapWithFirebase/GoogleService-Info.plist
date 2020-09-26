@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>505044199896-c7dl7bt4q3vt61jq8josgcsmg7271pne.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.505044199896-c7dl7bt4q3vt61jq8josgcsmg7271pne</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB6sAZelilVdrJ7vBRrVZ_uqdvqfU1csuk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>505044199896</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>FarazHaider88.MapWithFirebase</string>
+	<key>PROJECT_ID</key>
+	<string>nifty-kayak-104320</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nifty-kayak-104320.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:505044199896:ios:7dd907eaba548fc7c5eaad</string>
+	<key>DATABASE_URL</key>
+	<string>https://nifty-kayak-104320.firebaseio.com</string>
+</dict>
+</plist>
