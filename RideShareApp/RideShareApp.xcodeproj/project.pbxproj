@@ -13,6 +13,7 @@
 		D0B3E9FB2520554600937206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B3E9F92520554600937206 /* Main.storyboard */; };
 		D0B3E9FD2520554700937206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B3E9FC2520554700937206 /* Assets.xcassets */; };
 		D0B3EA002520554700937206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B3E9FE2520554700937206 /* LaunchScreen.storyboard */; };
+		D0E678B22529D6E8008D7E42 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E678B12529D6E8008D7E42 /* GradientView.swift */; };
 		E6A80D4B2A53651FF51B010F /* Pods_RideShareApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC1D30165902D0146AAD78C /* Pods_RideShareApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		D0B3E9FC2520554700937206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B3E9FF2520554700937206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0B3EA012520554700937206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E678B12529D6E8008D7E42 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,9 @@
 		D0B3E9F22520554600937206 /* RideShareApp */ = {
 			isa = PBXGroup;
 			children = (
+				D0E678B02529D6B8008D7E42 /* View */,
+				D0E678AF2529D6A5008D7E42 /* Model */,
+				D0E678AE2529D695008D7E42 /* Controller */,
 				D0B3E9F32520554600937206 /* AppDelegate.swift */,
 				D0B3E9F52520554600937206 /* SceneDelegate.swift */,
 				D0B3E9F72520554600937206 /* ViewController.swift */,
@@ -81,6 +86,28 @@
 				D0B3EA012520554700937206 /* Info.plist */,
 			);
 			path = RideShareApp;
+			sourceTree = "<group>";
+		};
+		D0E678AE2529D695008D7E42 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D0E678AF2529D6A5008D7E42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0E678B02529D6B8008D7E42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0E678B12529D6E8008D7E42 /* GradientView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		E072D36D306730968A247FBD /* Frameworks */ = {
@@ -208,6 +235,7 @@
 			files = (
 				D0B3E9F82520554600937206 /* ViewController.swift in Sources */,
 				D0B3E9F42520554600937206 /* AppDelegate.swift in Sources */,
+				D0E678B22529D6E8008D7E42 /* GradientView.swift in Sources */,
 				D0B3E9F62520554600937206 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

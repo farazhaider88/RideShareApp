@@ -86,11 +86,13 @@ PODS:
   - nanopb/decode (1.30905.0)
   - nanopb/encode (1.30905.0)
   - PromisesObjC (1.2.8)
+  - RevealingSplashView (0.6.0)
 
 DEPENDENCIES:
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Database
+  - RevealingSplashView
 
 SPEC REPOS:
   trunk:
@@ -111,6 +113,7 @@ SPEC REPOS:
     - leveldb-library
     - nanopb
     - PromisesObjC
+    - RevealingSplashView
 
 SPEC CHECKSUMS:
   Firebase: 5719b4f965f76643241a1bb8244483ff6117db39
@@ -130,7 +133,8 @@ SPEC CHECKSUMS:
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
+  RevealingSplashView: 40c5a770894459736acdc95655eeba0dd30ce91c
 
-PODFILE CHECKSUM: d73fa7b787da2be4354589e2d177fb5a144a6802
+PODFILE CHECKSUM: b12186e93437bdde6ea08166cf8c40110d0f749b
 
 COCOAPODS: 1.8.4
