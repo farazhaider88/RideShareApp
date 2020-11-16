@@ -11,6 +11,7 @@
 		D00718CF252FA7FF00B7A16F /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00718CE252FA7FF00B7A16F /* RoundedShadowView.swift */; };
 		D00718D1253066C700B7A16F /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00718D0253066C700B7A16F /* CircleView.swift */; };
 		D00718D32530683900B7A16F /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00718D22530683900B7A16F /* RoundedShadowButton.swift */; };
+		D06455D42562D835004C3992 /* UIVIEW+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06455D32562D835004C3992 /* UIVIEW+Extension.swift */; };
 		D0B3E9F42520554600937206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3E9F32520554600937206 /* AppDelegate.swift */; };
 		D0B3E9F62520554600937206 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3E9F52520554600937206 /* SceneDelegate.swift */; };
 		D0B3E9F82520554600937206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3E9F72520554600937206 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 		D00718CE252FA7FF00B7A16F /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		D00718D0253066C700B7A16F /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		D00718D22530683900B7A16F /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		D06455D32562D835004C3992 /* UIVIEW+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIEW+Extension.swift"; sourceTree = "<group>"; };
 		D0B3E9F02520554600937206 /* RideShareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideShareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B3E9F32520554600937206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0B3E9F52520554600937206 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D06455D22562D822004C3992 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D06455D32562D835004C3992 /* UIVIEW+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		D0B3E9E72520554600937206 = {
 			isa = PBXGroup;
 			children = (
@@ -82,12 +92,12 @@
 		D0B3E9F22520554600937206 /* RideShareApp */ = {
 			isa = PBXGroup;
 			children = (
+				D06455D22562D822004C3992 /* Extension */,
 				D0E678B02529D6B8008D7E42 /* View */,
 				D0E678AF2529D6A5008D7E42 /* Model */,
 				D0E678AE2529D695008D7E42 /* Controller */,
 				D0B3E9F32520554600937206 /* AppDelegate.swift */,
 				D0B3E9F52520554600937206 /* SceneDelegate.swift */,
-				D0B3E9F72520554600937206 /* ViewController.swift */,
 				D0B3E9F92520554600937206 /* Main.storyboard */,
 				D0B3E9FC2520554700937206 /* Assets.xcassets */,
 				D0B3E9FE2520554700937206 /* LaunchScreen.storyboard */,
@@ -99,6 +109,7 @@
 		D0E678AE2529D695008D7E42 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D0B3E9F72520554600937206 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -246,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D00718CD252E49C200B7A16F /* RoundImageView.swift in Sources */,
+				D06455D42562D835004C3992 /* UIVIEW+Extension.swift in Sources */,
 				D0B3E9F82520554600937206 /* ViewController.swift in Sources */,
 				D00718CF252FA7FF00B7A16F /* RoundedShadowView.swift in Sources */,
 				D0B3E9F42520554600937206 /* AppDelegate.swift in Sources */,
